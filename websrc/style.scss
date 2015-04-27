@@ -1,0 +1,28 @@
+/**
+* Utils
+*/
+@import 'scss/utils/variables';
+@import 'scss/utils/functions';
+@import 'scss/utils/helpers';
+@import 'scss/utils/main';
+@import 'scss/utils/application';
+@import 'scss/utils/animations';
+
+
+/**
+* Services
+*/
+@import "app/services/ui/scss/cookie";
+@import "app/services/ui/scss/progress";
+@import "app/services/ui/scss/sharedPlace";
+@import "app/services/ui/scss/tips";
+
+/**
+* Components
+*/
+@import 'scss/component/utils/htmlComponent';
+
+@import 'scss/component/form/input/selectInputComponent';
+@import 'scss/component/form/input/textInputComponent';
+
+

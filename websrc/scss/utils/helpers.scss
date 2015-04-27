@@ -1,0 +1,186 @@
+@for $i from 1 through 30 {
+
+
+    .m#{$i*10}px {
+        margin: 10px * $i;
+    }
+
+    .ml#{$i*10}px {
+        margin-left: 10px * $i;
+    }
+    .mr#{$i*10}px {
+        margin-right: 10px * $i;
+    }
+    
+    .mb#{$i*10}px {
+        margin-bottom: 10px * $i;
+    }
+    
+    .mb-#{$i*10}px {
+        margin-bottom: -10px * $i;
+    }
+    
+    
+    .mt#{$i*10}px {
+        margin-top: 10px * $i;
+    }
+    
+    
+    .mt-#{$i*10}px {
+        margin-top: -10px * $i;
+    }
+    
+    .p#{$i*10}px {
+        padding: 10px * $i;
+    }
+    
+    .pl#{$i*10}px {
+        padding-left: 10px * $i;
+    }
+    
+    .pr#{$i*10}px {
+        padding-right: 10px * $i;
+    }
+    
+    .pb#{$i*10}px {
+        padding-bottom: 10px * $i;
+    }
+    
+    .pt#{$i*10}px {
+        padding-top: 10px * $i;
+    }
+    .h#{$i*10}px {
+        height: 10px * $i;
+    }
+    
+    .h#{$i*10} {
+        height: 10% * $i ;
+    }
+    
+    
+    .minh#{$i*10}px {
+        min-height: 10px * $i;
+    }
+    
+    .minh#{$i*10} {
+        min-height: 10% * $i;
+    }
+    
+    
+    .maxh#{$i*10}px {
+        min-height: 10px * $i;
+    }
+    
+    .maxh#{$i*10} {
+        min-height: 10% * $i;
+    }
+    
+    .w#{$i*10}px {
+        width: 10px * $i;
+    }
+    
+    .w#{$i*10} {
+        width: 10% * $i;
+    }
+    
+    
+    .minw#{$i*10}px {
+        min-width: 10px * $i;
+    }
+    
+    .minw#{$i*10} {
+        min-width: 10% * $i;
+    }
+    
+    .maxw#{$i*10}px {
+        max-width: 10px * $i;
+    }
+    
+    .maxw#{$i*10} {
+        max-width: 10% * $i;
+    }
+    
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-none {
+    flex: none !important;
+}
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-end {
+    justify-content : flex-end;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.flex-none {
+    justify-content : flex-end;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.ta-center {
+    text-align:center;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.cpointer {
+    cursor: pointer;
+}
+.fwbold {
+    font-weight: bold;
+}
+.fwnormal {
+    font-weight: normal;
+}
+
+
+.dnone {
+    display: none !important;
+}
+
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.hidden { 
+    display: none !important; 
+    visibility: hidden;
+}
+
+.relative { 
+    position:relative; 
+    height:100%; 
+}
+
+.border-box {
+    box-sizing: border-box;
+}

@@ -1,0 +1,44 @@
+xv-text-input {
+  display: block;
+
+  > label {
+    > span {
+      display: block;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    > input, textarea {
+      width: 100%;
+      height: 45px;
+
+      &:focus {
+
+      }
+    }
+
+    > textarea {
+      padding: 10px;
+    }
+  }
+
+  &.required {
+    > label {
+      > span {
+        &:after {
+          content: "*";
+        }
+      }
+    }
+  }
+
+  &.invalid, &.invalidated {
+    > label {
+      > input {
+        border-color: red;
+        outline-color: red;
+      }
+    }
+  }
+
+}
