@@ -36,7 +36,7 @@
             if (!componentInstance) {
                 return true;
             }
-            componentInstance.trigger("onDestroy");
+            componentInstance.trigger("destroy");
             if (!componentInstance.destroy) {
                 return true;
             }
