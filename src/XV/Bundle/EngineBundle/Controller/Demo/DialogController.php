@@ -74,6 +74,7 @@ class DialogController extends Controller
 
 
     /**
+     * Get open modal button view
      * @return ButtonComponent
      */
     public function getButtonView()
@@ -88,7 +89,10 @@ class DialogController extends Controller
         return $view;
     }
 
-
+    /**
+     * Get dialog view
+     * @return DialogComponent
+     */
     public function getDialogView()
     {
         $view = new DialogComponent("simple-dialog-view");
