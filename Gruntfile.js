@@ -7,7 +7,7 @@ module.exports = function (grunt) {
                     separator: ';\n',
                     banner: (function (path) {
                         var file = grunt.file.read(path);
-                        return file.substr(0, file.length - 3);
+                        return file.substr(0, file.length - 7);
                     })("websrc/config/concat.options.banner.js"),
                     footer: "})(application);",
                     process: eval(grunt.file.read("websrc/config/concat.options.process.js"))

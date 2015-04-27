@@ -82,7 +82,11 @@ var application = {};
                 _extendObj.traits.forEach(function (callable) {
                     var trait = callable();
                     Object.keys(trait.prototype).forEach(function (key) {
-                        self.__proto__[key] = trait.prototype[key];
+
+                        self.__proto__[key] =
+                            trait.prototype[key].bind ?
+                            trait.prototype[key].bind(self) :
+                            jQuery.extend({}, trait.prototype[key]);
                     });
                 })
             }
@@ -160,4 +164,7 @@ var application = {};
     /**
      * do not end this file! look for footer.js
      */
-});
+
+
+
+})(x);

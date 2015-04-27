@@ -14,6 +14,7 @@
             handlers = [handlers];
         }
 
+
         if(typeof this._events[eventName] === "undefined"){
             this._events[eventName] = [];
         }
